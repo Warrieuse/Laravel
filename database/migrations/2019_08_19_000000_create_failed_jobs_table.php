@@ -10,7 +10,7 @@ class CreateFailedJobsTable extends Migration
      * Run the migrations.
      *
      * @return void
-     */
+     */// function up creer table
     public function up()
     {
         Schema::create('failed_jobs', function (Blueprint $table) {
@@ -27,7 +27,7 @@ class CreateFailedJobsTable extends Migration
      * Reverse the migrations.
      *
      * @return void
-     */
+     */// function down on supprime la table
     public function down()
     {
         Schema::dropIfExists('failed_jobs');
