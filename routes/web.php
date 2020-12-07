@@ -26,3 +26,5 @@ Route::get('/home', 'PagesController@home');
 Route::get('/apropos', 'PagesController@apropos');
 
 Route::get('/services', 'PagesControllers@services');
+
+Route::get('/show/{id}', 'PagesController@show');
